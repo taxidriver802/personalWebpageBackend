@@ -1,0 +1,36 @@
+{
+  "name": "personalwebpagebackend",
+  "version": "1.0.0",
+  "description": "This repository contains the backend code for the personal webpage project.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint .",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taxidriver802/personalWebpageBackend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taxidriver802/personalWebpageBackend/issues"
+  },
+  "homepage": "https://github.com/taxidriver802/personalWebpageBackend#readme",
+  "dependencies": {
+    "celebrate": "^15.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
